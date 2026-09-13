@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Fraunces, Figtree } from "next/font/google";
+import { Sora, Figtree } from "next/font/google";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const sora = Sora({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-sora",
   display: "swap",
 });
 
@@ -33,10 +33,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body className={`${fraunces.variable} ${figtree.variable} font-sans`}>
-        {children}
-      </body>
+    <html lang="es" className={`${sora.variable} ${figtree.variable}`}>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }

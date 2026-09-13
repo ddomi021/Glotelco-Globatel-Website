@@ -18,18 +18,18 @@ export function Models() {
           </p>
         </div>
 
-        <ul className="mt-12 grid gap-6 sm:mt-14 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-12 grid gap-5 sm:mt-14 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
           {phoneModels.map((phone) => (
-            <li key={phone.src} className="group relative">
-              <div className="relative flex aspect-[4/3] items-center justify-center p-4 sm:p-6">
+            <li key={phone.src} className="group">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-sand/50">
                 <Image
                   src={phone.src}
                   alt={phone.name}
                   fill
-                  className="object-contain p-2 transition-transform duration-300 group-hover:scale-[1.03] sm:p-4"
+                  className="object-contain p-6 transition-transform duration-300 group-hover:scale-[1.04]"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                <div className="pointer-events-none absolute inset-x-3 bottom-3 rounded-sm bg-atlantic/90 px-3 py-2 text-center opacity-100 transition-opacity sm:inset-x-4 sm:bottom-4 sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-within:opacity-100">
+                <div className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-atlantic/90 to-transparent px-3 pb-3 pt-10 text-center opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
                   <p className="text-sm font-semibold text-foam">{phone.name}</p>
                 </div>
               </div>

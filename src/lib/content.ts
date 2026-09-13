@@ -80,7 +80,7 @@ export const phoneModels = [
 ] as const;
 
 export const clients = [
-  { name: "CIC Construction", logo: null, href: "https://www.cic-pr.com/" },
+  { name: "CIC Construction", logo: "/clients/cic-construction.png", href: "https://www.cic-pr.com/" },
   { name: "AR Institute of Gastroenterology", logo: null, href: null },
   { name: "Tiger Med", logo: "/clients/tiger-med.png", href: "https://www.tigermedpr.com/" },
   { name: "All Animal Hospital", logo: null, href: null },
@@ -93,13 +93,13 @@ export const clients = [
   { name: "Bottles Restaurant", logo: "/clients/bottles.png", href: "https://www.bottlespr.com/" },
   { name: "Boutique Dental", logo: "/clients/boutique-dental.png", href: "https://www.boutiquedentalpr.com/" },
   { name: "Business Alliance Insurance Agency", logo: "/clients/baia.png", href: "https://www.baiapr.com/" },
-  { name: "Caguas Auto Mall", logo: null, href: "https://caguasauto.com/" },
+  { name: "Caguas Auto Mall (CAM)", logo: null, href: "https://caguasauto.com/" },
   { name: "Charlie Car Rental", logo: "/clients/charlie-cars.png", href: "https://www.charliecars.com/" },
   { name: "Canyon Hotel Barranquitas", logo: "/clients/canyon.png", href: "https://canyonboutiquehotel.online/" },
   { name: "Colegio de Médicos de PR", logo: "/clients/colegio-medicos.png", href: "https://www.colegiomedicopr.org/" },
-  { name: "Municipio de Juncos", logo: null, href: null },
+  { name: "Municipio de Juncos", logo: "/clients/municipio-juncos.png", href: null },
   { name: "Comfort Pedic", logo: "/clients/comfort-pedic.png", href: "https://comfortpedic.com/" },
-  { name: "Turabo Pizza", logo: null, href: null },
+  { name: "Turabo Pizza", logo: "/clients/turabo-pizza.png", href: null },
   { name: "Empresas Óptica Nacional", logo: null, href: null },
   { name: "Euro Piezas Auto Parts", logo: "/clients/euro-piezas.png", href: "https://www.europiezasautoparts.com/" },
   { name: "Expert Accounting", logo: "/clients/expert-accounting.png", href: "https://www.serviciocpa.com/" },

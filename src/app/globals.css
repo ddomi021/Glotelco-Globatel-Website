@@ -14,7 +14,7 @@
   --color-ink-muted: #4a575e;
   --color-gold: #b8922e;
 
-  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-display: var(--font-sora), "Segoe UI", sans-serif;
   --font-sans: var(--font-figtree), "Segoe UI", sans-serif;
 
   --animate-drift: drift 18s ease-in-out infinite;
@@ -58,7 +58,18 @@
   }
 
   body {
-    @apply bg-foam text-ink font-sans antialiased;
+    background-color: var(--color-foam);
+    color: var(--color-ink);
+    font-family: var(--font-figtree), "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .font-display {
+    font-family: var(--font-sora), "Segoe UI", sans-serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-figtree), "Segoe UI", sans-serif;
   }
 
   ::selection {
