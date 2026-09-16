@@ -2,7 +2,7 @@ export const company = {
   name: "Globatel",
   phoneDisplay: "(787) 497-0100",
   phoneTel: "+17874970100",
-  email: "sb.glotelco@gmail.com",
+  email: "ddominguez@globatelpr.com",
   address: "90 Ave. Río Hondo, Bayamón, Puerto Rico",
   years: 30,
   endUsers: 3500,

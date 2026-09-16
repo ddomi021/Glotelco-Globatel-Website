@@ -90,6 +90,31 @@ export function Header() {
         </button>
       </div>
 
+      <div
+        className="overflow-hidden border-y border-foam/15 bg-coral py-2 text-foam"
+        aria-label="Oferta especial: cuadro telefónico gratis, instalación gratis y tres meses de servicio gratis"
+      >
+        <div className="flex w-max animate-marquee motion-reduce:animate-none">
+          {[0, 1].map((group) => (
+            <div
+              key={group}
+              aria-hidden={group === 1}
+              className="flex w-screen min-w-max shrink-0 items-center justify-center px-8"
+            >
+              <p className="shrink-0 whitespace-nowrap text-xs font-semibold uppercase tracking-[0.13em] sm:text-sm">
+                <span className="text-foam/75">Oferta especial</span>
+                <span aria-hidden className="mx-5 text-foam/60">—</span>
+                Cuadro telefónico gratis
+                <span aria-hidden className="mx-5 text-foam/60">—</span>
+                Instalación gratis
+                <span aria-hidden className="mx-5 text-foam/60">—</span>
+                3 meses de servicio gratis
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {open && (
         <div className="border-t border-atlantic/10 bg-foam px-5 pb-6 pt-2 lg:hidden">
           <nav className="flex flex-col gap-4">

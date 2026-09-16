@@ -19,7 +19,7 @@
 
   --animate-drift: drift 18s ease-in-out infinite;
   --animate-rise: rise 0.9s ease-out both;
-  --animate-marquee: marquee 55s linear infinite;
+  --animate-marquee: marquee 24s linear infinite;
 }
 
 @keyframes drift {
