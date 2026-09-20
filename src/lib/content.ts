@@ -23,11 +23,11 @@ export const cloudFeatures = [
   },
   {
     title: "Un número para toda su operación",
-    body: "Extensiones de escritorio, traspasos y una imagen profesional para que cada llamada se atienda como debe en su empresa.",
+    body: "Extensiones de escritorio, transferencia de llamadas y una imagen profesional para que cada llamada se atienda como debe en su empresa.",
   },
   {
     title: "Auto operador",
-    body: "Menús, colas, transferencia y horarios a la medida de su negocio — para que cada llamada llegue a quien corresponde.",
+    body: "Menús, espera por orden de llegada, transferencia y horarios a la medida de su negocio — para que cada llamada llegue a quien corresponde.",
   },
   {
     title: "Videollamadas y mensajería",
@@ -39,7 +39,7 @@ export const cloudFeatures = [
   },
   {
     title: "Varias sucursales, una sola red",
-    body: "Une locales en distintos pueblos o fuera de Puerto Rico bajo el mismo sistema — extensiones, traspasos y presencia en tiempo real.",
+    body: "Une locales en distintos pueblos o fuera de Puerto Rico bajo el mismo sistema — extensiones, transferencia de llamadas y presencia en tiempo real.",
   },
 ] as const;
 
@@ -66,7 +66,7 @@ export const services = [
   },
   {
     title: "Soluciones de call center",
-    body: "Colas, enrutamiento por teclado o voz, y herramientas para equipos con alto volumen de llamadas — sin depender del equipo viejo.",
+    body: "Espera por orden de llegada, enrutamiento por teclado o voz, y herramientas para equipos con alto volumen de llamadas — sin depender del equipo viejo.",
   },
 ] as const;
 

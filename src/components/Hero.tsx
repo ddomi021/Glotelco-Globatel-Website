@@ -41,7 +41,7 @@ export function Hero() {
             style={{ animationDelay: "0.32s" }}
           >
             Más de {company.years} años instalando cuadros telefónicos
-            empresariales en la Isla — con soporte local y más de{" "}
+            empresariales en la Isla — con apoyo técnico local y más de{" "}
             {company.endUsers.toLocaleString("es-PR")} usuarios.
           </p>
 
@@ -93,11 +93,8 @@ export function Hero() {
           </div>
 
           <div className="mx-auto mt-2 max-w-md text-center sm:mt-4">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-coral">
-              Modelos disponibles
-            </p>
-            <p className="mt-2 text-sm leading-relaxed text-sand/75">
-              Equipos para recepciones, oficinas y operaciones con múltiples extensiones.
+            <p className="text-sm font-semibold leading-snug text-coral sm:text-base">
+              Equipos para empresas/operaciones de cualquier tamaño
             </p>
           </div>
         </aside>

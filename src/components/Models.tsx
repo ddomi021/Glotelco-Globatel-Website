@@ -10,7 +10,7 @@ export function Models() {
             Equipo
           </p>
           <h2 className="mt-4 font-display text-3xl leading-tight font-semibold text-atlantic text-balance sm:text-4xl md:text-5xl">
-            Modelos disponibles
+            Equipos para empresas/operaciones de cualquier tamaño
           </h2>
           <p className="mt-5 text-base leading-relaxed text-ink-muted sm:text-lg">
             Teléfonos de escritorio que instalamos como parte del sistema de su

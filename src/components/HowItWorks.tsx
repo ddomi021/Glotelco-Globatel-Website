@@ -10,7 +10,7 @@ export function HowItWorks() {
     },
     {
       title: "Seguimos disponibles",
-      body: "Soporte local en Puerto Rico cuando haga falta ajustar rutas, extensiones o equipo. Orientación clara, sin rodeos.",
+      body: "Apoyo técnico local en Puerto Rico cuando haga falta ajustar rutas, extensiones o equipo. Orientación clara, sin rodeos.",
     },
   ];
 
