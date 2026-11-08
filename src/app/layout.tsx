@@ -15,11 +15,11 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Globatel | Instalación de sistemas telefónicos en Puerto Rico",
+  title: "Globatel | Instalación de cuadros telefónicos en Puerto Rico",
   description:
     "Globatel instala cuadros telefónicos empresariales y sistemas en la nube para negocios en todo Puerto Rico. Más de 30 años y más de 3,500 usuarios.",
   openGraph: {
-    title: "Globatel | Instalación de sistemas telefónicos en Puerto Rico",
+    title: "Globatel | Instalación de cuadros telefónicos en Puerto Rico",
     description:
       "Instalación de cuadros telefónicos para negocios. Servicio a todo Puerto Rico.",
     locale: "es_PR",

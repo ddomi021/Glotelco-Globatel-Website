@@ -16,7 +16,7 @@ export function Footer() {
             />
           </div>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-sand/70">
-            Instalación de sistemas telefónicos para negocios. Servicio a todo
+            Instalación de cuadros telefónicos para negocios. Servicio a todo
             Puerto Rico — más de {company.years} años.
           </p>
         </div>

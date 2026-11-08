@@ -20,12 +20,12 @@ export function Heritage() {
           <p className="text-base leading-relaxed text-ink-muted sm:text-lg md:text-xl">
             No somos un centro de llamadas extranjero leyendo un libreto.
             Globatel atiende clínicas, restaurantes, aseguradoras, municipios y
-            negocios familiares en toda la Isla — instalando sistemas
+            negocios familiares en toda la Isla — instalando cuadros
             telefónicos empresariales listos para el día a día.
           </p>
           <p className="mt-5 text-base leading-relaxed text-ink-muted sm:mt-6 sm:text-lg md:text-xl">
             Hoy más de {company.endUsers.toLocaleString("es-PR")} usuarios
-            confían en los sistemas que instalamos. Apostamos a lo práctico:
+            confían en los cuadros que instalamos. Apostamos a lo práctico:
             cuadros en la nube, teléfonos de escritorio y gente aquí que le
             orienta cuando hace falta.
           </p>

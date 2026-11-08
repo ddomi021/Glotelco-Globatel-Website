@@ -12,7 +12,7 @@ export function Services() {
             Instalación y configuración para negocios en Puerto Rico.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-ink-muted sm:text-lg">
-            Globatel instala y deja funcionando el sistema telefónico de su
+            Globatel instala y deja funcionando el cuadro telefónico de su
             empresa. Nos enfocamos en la instalación y la configuración; el
             servicio de telefonía lo maneja el proveedor.
           </p>

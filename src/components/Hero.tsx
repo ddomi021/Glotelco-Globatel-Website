@@ -33,7 +33,7 @@ export function Hero() {
             className="animate-rise max-w-xl font-display text-[2.15rem] leading-[1.08] font-semibold tracking-tight text-balance sm:text-5xl md:text-6xl lg:text-[3.25rem] xl:text-6xl"
             style={{ animationDelay: "0.2s" }}
           >
-            Instalación de sistemas telefónicos para negocios.
+            Instalación de cuadros telefónicos para negocios.
           </h1>
 
           <p

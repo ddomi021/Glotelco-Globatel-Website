@@ -46,7 +46,7 @@ export const cloudFeatures = [
 export const services = [
   {
     title: "Instalación de cuadros telefónicos",
-    body: "Diseñamos e instalamos el sistema telefónico de su empresa: configuración, cableado si hace falta y puesta en marcha lista para trabajar.",
+    body: "Diseñamos e instalamos el cuadro telefónico de su empresa: configuración, cableado si hace falta y puesta en marcha lista para trabajar.",
   },
   {
     title: "Auto operador",
